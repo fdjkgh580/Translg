@@ -59,4 +59,5 @@ http://www.codeigniter.com/user_guide/libraries/language.html
 --
 
 # 從安裝到使用，一切都這麼輕巧簡單，快樂用它吧！
+<a href="https://github.com/fdjkgh580/Translg/archive/master.zip" target="_blank">Download</a>
 
