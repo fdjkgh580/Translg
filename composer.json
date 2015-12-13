@@ -1,0 +1,14 @@
+{
+    "name": "Translg/Translg",
+    "type": "library",
+    "description": "Codeigniter 簡單轉換多國語言",
+    "keywords": ["language"],
+    "license": "MIT",
+    "homepage": "https://github.com/fdjkgh580/Translg",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "classmap": ["Translg.php"]
+    }
+}
