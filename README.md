@@ -19,7 +19,7 @@ composer install
 # 使用傳統安裝
 下載解壓縮後，放到你的目錄，並在你的程式碼中直接引入
 ````php
-inclide_once('translg/Translg.php');
+include_once('translg/Translg.php');
 ````
 
 # Composer 自動加載
