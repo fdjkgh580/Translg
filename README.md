@@ -55,5 +55,5 @@ $translg->chinese->menu->contact;
 關於 CI 多國語言的切換使用，可以參考 CI 擴充的涵式庫 libraries/language 
 http://www.codeigniter.com/user_guide/libraries/language.html
 
-一切都這麼輕巧簡單！
+一切都這麼輕巧簡單，快樂使用它吧！
 
