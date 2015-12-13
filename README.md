@@ -13,7 +13,13 @@ composer.json
 ````cmd
 composer install
 ````
+## 使用傳統安裝
+下載解壓縮後，放到你的目錄，並在你的程式碼中直接引入
+````php
+inclide_once('translg/Translg.php');
+````
 
+## 使用方法
 這裡使用PHP傳統寫法介紹。若在 CI 的控制器(Controller)中，可自行依照 CI 風格做修改。
 ````php
 require __DIR__ . '/vendor/autoload.php';
