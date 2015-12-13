@@ -3,7 +3,7 @@ Codeigniter (CI) 簡單轉換多國語言
 輕易的把語言切換，改成物件的寫法。直覺又好懂！
 
 
-## 使用 compsoer 安裝
+# 使用 compsoer 安裝
 composer.json
 ````php
 {
@@ -16,18 +16,18 @@ composer.json
 ````cmd
 composer install
 ````
-## 使用傳統安裝
+# 使用傳統安裝
 下載解壓縮後，放到你的目錄，並在你的程式碼中直接引入
 ````php
 inclide_once('translg/Translg.php');
 ````
 
-## Composer 自動加載
+# Composer 自動加載
 ````php
 require __DIR__ . '/vendor/autoload.php';
 ````
 
-## 使用方法
+# 使用方法
 這裡介紹 PHP傳統方式。若在 CI 的控制器(Controller)中，您可依照 CI 風格做修改。
 ````php
 $translg = new Translg();
@@ -54,7 +54,7 @@ $translg->chinese->menu->news;
 $translg->chinese->menu->contact;
 ````
 
-## Codeigniter 的多國語言
+# Codeigniter 的多國語言
 可以參考官方擴充的涵式庫 libraries/language 
 http://www.codeigniter.com/user_guide/libraries/language.html
 
