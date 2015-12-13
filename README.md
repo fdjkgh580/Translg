@@ -56,7 +56,7 @@ $translg->chinese->menu->contact;
 可以參考官方擴充的涵式庫 libraries/language 
 http://www.codeigniter.com/user_guide/libraries/language.html
 
+--
 
-
-從安裝到使用，一切都這麼輕巧簡單，快樂用它吧！
+# 從安裝到使用，一切都這麼輕巧簡單，快樂用它吧！
 
