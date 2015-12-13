@@ -1,5 +1,4 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * [快速切換多國語言]
  * 如同 CI 指定語言的檔案，要放在 language/ 底下。
