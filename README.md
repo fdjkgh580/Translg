@@ -1,6 +1,8 @@
 # Codeigniter (CI) 簡單轉換多國語言
 輕易的把語言切換，改成物件的寫法。直覺又好懂！
 
+
+
 ## 使用 compsoer 安裝
 composer.json
 ````php
