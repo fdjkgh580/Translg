@@ -1,4 +1,5 @@
 # Codeigniter (CI) 簡單轉換多國語言
+輕易的把語言切換，改成物件的寫法。直覺又好懂！
 
 ## 使用 compsoer 安裝
 composer.json
@@ -51,9 +52,11 @@ $translg->chinese->menu->news;
 $translg->chinese->menu->contact;
 ````
 
-
-關於 CI 多國語言的切換使用，可以參考 CI 擴充的涵式庫 libraries/language 
+## Codeigniter 的多國語言
+可以參考官方擴充的涵式庫 libraries/language 
 http://www.codeigniter.com/user_guide/libraries/language.html
 
-一切都這麼輕巧簡單，快樂使用它吧！
+
+
+從安裝到使用，一切都這麼輕巧簡單，快樂用它吧！
 
