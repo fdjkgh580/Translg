@@ -19,11 +19,14 @@ composer install
 inclide_once('translg/Translg.php');
 ````
 
-## 使用方法
-這裡使用PHP傳統寫法介紹。若在 CI 的控制器(Controller)中，可自行依照 CI 風格做修改。
+## Composer 自動加載
 ````php
 require __DIR__ . '/vendor/autoload.php';
+````
 
+## 使用方法
+這裡介紹 PHP傳統方式。若在 CI 的控制器(Controller)中，您可依照 CI 風格做修改。
+````php
 $translg = new Translg();
 
 // 語言是英文時
