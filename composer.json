@@ -1,5 +1,5 @@
 {
-    "name": "translg/translg",
+    "name": "jsnlib/translg",
     "type": "library",
     "description": "Codeigniter 簡單轉換多國語言",
     "keywords": ["language", "Codeigniter", "library"],
