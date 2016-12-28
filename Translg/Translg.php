@@ -18,6 +18,8 @@
  * $translg->zh->menu->morning; 
  * 
  */
+namespace Jsnlib\Codeigniter;
+
 class Translg
 {
     protected $ci;
