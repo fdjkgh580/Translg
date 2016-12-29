@@ -2,7 +2,7 @@
     "name": "jsnlib/translg",
     "type": "library",
     "description": "Codeigniter 簡單轉換多國語言",
-    "keywords": ["language", "Codeigniter", "library"],
+    "keywords": ["language", "Codeigniter", "library", "jsnlib"],
     "license": "MIT",
     "homepage": "https://github.com/fdjkgh580/translg",
     "require": {
