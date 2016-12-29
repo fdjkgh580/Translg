@@ -36,7 +36,7 @@ class Translg
 
     function __construct()
     {
-        if (\class_exists('\Jsnlib\Ao'))
+        if (\class_exists('\Jsnlib\Ao') === false)
             throw new \Exception("Need Class : '\Jsnlib\Ao' ");
     }
 
