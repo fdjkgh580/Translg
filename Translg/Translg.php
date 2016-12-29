@@ -34,6 +34,12 @@ class Translg
     // 避免輸出相同的語言，卻重複的檢查路徑存在 
     protected $history = array(); 
 
+    function __construct()
+    {
+        if (\class_exists('\Jsnlib\Ao') === false)
+            throw new \Exception("Need Class : '\Jsnlib\Ao' ");
+    }
+
     function __get($name)
     {
         $this->ci =& get_instance();
@@ -71,7 +77,8 @@ class Translg
         else 
         {
             $this->clean();
-            return $this->ci->lang->line($name);
+            $line = $this->ci->lang->line($name);
+            return is_array($line) ? new \Jsnlib\Ao($line) : $line;
         }
 
     }
