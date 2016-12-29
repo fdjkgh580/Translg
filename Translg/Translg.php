@@ -1,6 +1,6 @@
 <?php
 /**
- * v1.0
+ * v1.1
  * 
  * [快速切換多國語言]
  * 如同 CI 指定語言的檔案，要放在 language/ 底下。
@@ -33,6 +33,12 @@ class Translg
     // 儲存訪查路徑是否存在的紀錄 array($path => true/false)
     // 避免輸出相同的語言，卻重複的檢查路徑存在 
     protected $history = array(); 
+
+    function __construct()
+    {
+        if (\class_exists('\Jsnlib\Ao'))
+            throw new \Exception("Need Class : '\Jsnlib\Ao' ");
+    }
 
     function __get($name)
     {
@@ -71,7 +77,8 @@ class Translg
         else 
         {
             $this->clean();
-            return $this->ci->lang->line($name);
+            $line = $this->ci->lang->line($name);
+            return is_array($line) ? new \Jsnlib\Ao($line) : $line;
         }
 
     }

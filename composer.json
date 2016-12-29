@@ -1,12 +1,13 @@
 {
-    "name": "jsnlib/translg",
+    "name": "translg/translg",
     "type": "library",
     "description": "Codeigniter 簡單轉換多國語言",
     "keywords": ["language", "Codeigniter", "library"],
     "license": "MIT",
     "homepage": "https://github.com/fdjkgh580/Translg",
     "require": {
-        "php": ">=5.2.4"
+        "php": ">=5.2.4",
+        "jsnlib/jsnlib": "dev-master",
     },
     "autoload": {
         "classmap": ["Translg"]
