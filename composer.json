@@ -7,7 +7,7 @@
     "homepage": "https://github.com/fdjkgh580/translg",
     "require": {
         "php": ">=5.2.4",
-        "jsnlib/jsnlib": "dev-master"
+        "jsnlib/jsnlib": "2.0.0"
     },
     "autoload": {
         "classmap": ["Translg"]
