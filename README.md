@@ -65,6 +65,7 @@ $translg->$lang->menu->about; // 依照 session 切換
 
 # Codeigniter 的多國語言
 可以參考官方擴充的涵式庫 libraries/language 
+
 http://www.codeigniter.com/user_guide/libraries/language.html
 
 --
