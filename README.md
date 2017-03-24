@@ -52,7 +52,6 @@ echo $translg->zh->menu->news;
 ````php
 $translg->語言名稱->分類文件->語言辨識鍵;
 ````
-如
 ````php
 $translg->zh->menu->about;
 $translg->zh->menu->news;
@@ -60,11 +59,8 @@ $translg->zh->menu->contact;
 ````
 實際專案時可能會這樣
 ````
-$lang = 'english';
-$translg->$lang->menu->about; // 輸出英文
-
-$lang = 'zh';
-$translg->$lang->menu->about; // 輸出中文
+$lang = $_SESSION['switch_language]';
+$translg->$lang->menu->about; // 依照 session 切換
 ````
 
 # Codeigniter 的多國語言
