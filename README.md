@@ -39,7 +39,7 @@ $translg = new \Jsnlib\Codeigniter\Translg();
 
 // 語言是英文時
 // 會讀取 application/language/english/menu_lang.php 中的 $lang['morning'] 
-echo $translg->englist->menu->morning;
+echo $translg->english->menu->morning;
 
 
 // 語言是正體中文時
