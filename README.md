@@ -38,13 +38,13 @@ require __DIR__ . '/vendor/autoload.php';
 $translg = new \Jsnlib\Codeigniter\Translg();
 
 // 語言是英文時
-// 會讀取 application/language/english/menu_lang.php 中的 $lang['morning'] 
-echo $translg->english->menu->morning;
+// 會讀取 application/language/english/menu_lang.php 中的 $lang['news'] 
+echo $translg->english->menu->news;
 
 
 // 語言是正體中文時
-// 會讀取 application/language/zh/menu_lang.php 中的 $lang['morning'] 
-echo $translg->zh->menu->morning; 
+// 會讀取 application/language/zh/menu_lang.php 中的 $lang['news'] 
+echo $translg->zh->menu->news; 
 
 ````
 
