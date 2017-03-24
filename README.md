@@ -8,7 +8,7 @@ composer.json
 ````php
 {
     "require": {
-        "jsnlib/translg": "dev-master"
+        "jsnlib/translg": "1.0.1"
     }
 }
 ````
