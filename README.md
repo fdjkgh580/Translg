@@ -58,7 +58,7 @@ $translg->zh->menu->news;
 $translg->zh->menu->contact;
 ````
 實際專案時可能會這樣
-````
+````php
 $lang = $_SESSION['switch_language]';
 $translg->$lang->menu->about; // 依照 session 切換
 ````
