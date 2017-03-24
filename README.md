@@ -12,14 +12,19 @@ composer.json
     }
 }
 ````
-
 ````cmd
 composer install
 ````
+這會依賴相關套件 Jsnlib，並自動下載。
+
+
 # 使用傳統安裝
-下載解壓縮後，放到你的目錄，並在你的程式碼中直接引入
+下載解壓縮後，依照 Codeigniter 原則，放到你的 libraries，並在程式碼中直接引入。
+因為依賴套件 Jsnlib\Ao.php，若使用 Composer 下載的話會會自動下載關聯，但在傳統安裝需要自行前往
+https://github.com/fdjkgh580/jsnlib 解壓縮，將 Ao\ 複製到 libraries\。
 ````php
-include_once('translg/Translg.php');
+require_once('application/libraries/Translg/Translg.php');
+require_once('application/libraries/Ao/src/Ao.php');
 ````
 
 # Composer 自動加載
@@ -30,7 +35,7 @@ require __DIR__ . '/vendor/autoload.php';
 # 使用方法
 這裡介紹 PHP傳統方式。若在 CI 的控制器(Controller)中，您可依照 CI 風格做修改。
 ````php
-$translg = new Translg();
+$translg = new \Jsnlib\Codeigniter\Translg();
 
 // 語言是英文時
 // 會讀取 application/language/english/menu_lang.php 中的 $lang['morning'] 
